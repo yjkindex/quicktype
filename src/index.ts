@@ -53,9 +53,9 @@ import {
     sourcesFromPostmanCollection,
     splitIntoWords,
     trainMarkovChain,
-} from "quicktype-core";
-import { GraphQLInput } from "quicktype-graphql-input";
-import { schemaForTypeScriptSources } from "quicktype-typescript-input";
+} from "../packages/quicktype-core/src/index";
+import { GraphQLInput } from "../packages/quicktype-graphql-input/src/index";
+import { schemaForTypeScriptSources } from "../packages/quicktype-typescript-input/src/index";
 
 import { CompressedJSONFromStream } from "./CompressedJSONFromStream";
 import { introspectServer } from "./GraphQLIntrospection";
